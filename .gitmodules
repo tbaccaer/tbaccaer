@@ -1,0 +1,3 @@
+[submodule "dotfiles/zsh/zsh-plugin/geometry"]
+	path = dotfiles/zsh/zsh-plugin/geometry
+	url = https://github.com/geometry-zsh/geometry
