@@ -23,6 +23,7 @@ bindkey "^R" history-incremental-pattern-search-backward
 alias comp++='clang++ -Wall -g -std=c++11 '
 alias vim='nvim'
 alias vi='nvim'
+alias pdoc='pandoc --from=markdown --pdf-engine=xelatex --output=output.pdf '
 
 # Sourcing
 source $HOME/.config/zsh-plugin/geometry/geometry.zsh
