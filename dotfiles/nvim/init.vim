@@ -34,8 +34,6 @@ Plug 'roxma/nvim-yarp'
 Plug 'ncm2/ncm2-bufword'
 Plug 'ncm2/ncm2-path'
 Plug 'ncm2/ncm2-racer' " Rust
-Plug 'ncm2/ncm2-jedi' " Python
-Plug 'ncm2/ncm2-tern',  {'do': 'npm install'} " JavaScript
 
 " General Enhancements
 Plug 'tpope/vim-commentary'
@@ -43,11 +41,11 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 
-" Writing Enhancements
-Plug 'reedes/vim-lexical'
-
 " Filetype Specific Stuff
-Plug 'cespare/vim-toml' " TOML files
-Plug 'niklasl/vim-rdf' "RDF
+Plug 'pangloss/vim-javascript' "Javascript
+Plug 'cespare/vim-toml'        "TOML
+Plug 'rust-lang/rust.vim'      "Rust
+Plug 'niklasl/vim-rdf'         "RDF
+Plug 'soli/prolog-vim'         "Prolog
 
 call plug#end()

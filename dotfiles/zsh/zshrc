@@ -25,6 +25,10 @@ alias vim='nvim'
 alias vi='nvim'
 alias pdoc='pandoc --from=markdown --pdf-engine=xelatex --output=output.pdf '
 
+if command -v pyenv 1>/dev/null 2>&1; then
+    eval "$(pyenv init -)"
+fi
+
 # Sourcing
 source $HOME/.config/zsh-plugin/geometry/geometry.zsh
 source /usr/local/bin/virtualenvwrapper.sh

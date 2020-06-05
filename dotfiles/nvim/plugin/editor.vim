@@ -7,8 +7,8 @@ set shiftwidth=4
 " Set the encoding to UTF-8
 set encoding=utf-8
 
-" Hard wrap lines at 80 columns.
-set textwidth=80
+" Hard wrap lines at 99 columns.
+set textwidth=99
 
 " Enable line breaking.
 set linebreak
@@ -64,3 +64,10 @@ let g:lexical#spelllang = ['en_us']
 let g:lexical#thesaurus = ['~/.config/nvim/thesaurus/mthesaur.txt',]
 let g:lexical#spellfile = ['~/.config/nvim/spell/en.utf-8.add',]
 let g:lexical#dictionary = ['/usr/share/dict/words',]
+
+" Disable PERL in favour of Prolog
+au FileType perl set filetype=prolog
+
+" JS Settings
+let g:javascript_plugin_jsdoc = 1 " enable JSDoc syntax highlighting
+

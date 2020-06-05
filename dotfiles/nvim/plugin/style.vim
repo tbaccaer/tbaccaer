@@ -41,3 +41,6 @@ set shortmess+=AIOTWaotc
 
 " Disable the bell.
 set belloff+=ctrlg
+
+" add a line for max column length
+set colorcolumn=100

@@ -1,4 +1,6 @@
 setlocal complete+=kspell
-call lexical#init()
+" call lexical#init()
 
 setlocal foldmethod=indent
+
+set spell
